@@ -11,6 +11,7 @@ For badFile7.f23 even though the parser knows there is an extra token after the 
 ## Task
 
 ### BNF
+```
 <program> -> <vars> xopen <stats> xclose
 <vars>    -> empty | xdata <varList>
 <varList> -> identifier : integer <Y>
@@ -30,4 +31,5 @@ For badFile7.f23 even though the parser knows there is an extra token after the 
 <if>      -> xcond [<exp> <RO> <exp>] <stat>
 <loop>    -> xloop [<exp> <RO> <exp>] <stat>
 <assign>  -> xlet identifier <exp>;
-<RO>      -> <<(onetoken) | >> (one token) | < | >| = | %
+<R0>      -> <<(onetoken) | >> (one token) | < | >| = | %
+```
