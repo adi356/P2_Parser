@@ -1,4 +1,4 @@
-# 4280 Project 2 Parser
+# Compilers Project 2 Parser
 
 ## How to run
 1. run make clean command to clean any old builds
